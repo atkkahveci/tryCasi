@@ -219,7 +219,7 @@ export default function RootLayout({
   
         <div>
         <a 
-         href="https://wa.me/905001002030" 
+         href="https://wa.me/905411203779" 
          target="_blank" 
          rel="noopener noreferrer"
          className="inline-flex items-center gap-1.5 text-gray-400 hover:text-green-400 transition"
