@@ -212,9 +212,23 @@ export default function RootLayout({
         </div>
 
         {/* --- ORTAK FOOTER --- */}
-        <footer className="border-t border-gray-800/60 py-4 text-center text-xs text-gray-500">
-          © 2026 atkkahveci@gmail.com. Tüm hakları saklıdır.
-        </footer>
+        <footer className="border-t border-gray-800/60 py-4 px-6 text-center text-xs text-gray-500 flex flex-col sm:flex-row items-center justify-between gap-3">
+         <div>
+         © 2026 atkkahveci@gmail.com. Tüm hakları saklıdır.
+         </div>
+  
+        <div>
+        <a 
+         href="https://wa.me/905001002030" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         className="inline-flex items-center gap-1.5 text-gray-400 hover:text-green-400 transition"
+        >
+       <span>💬</span> WhatsApp
+       </a>
+       </div>
+      </footer>
+        
 
       </body>
     </html>
